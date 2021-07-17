@@ -9,6 +9,10 @@ const output = {
   login : (req,res)=>{
     res.render("home/login"); // login.ejs 로 이동한다.
   },
+
+  register: (req,res) => {
+    res.render("home/register");
+  }
 };
 
 const process = {
